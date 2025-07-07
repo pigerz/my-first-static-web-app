@@ -70,20 +70,23 @@ VS Codeエクステンションは後ほど追加説明
 ## **VS Code**
 ### **前提** {#vscode-introduction}
 - azure static web appエクステンションをインストール  
-![作成](assets/img/extension.gif)  
+![エクステンション](assets/img/extension.gif)  
 
 ### **VS CodeでテンプレートからWeb Static App作成**
 > 参考資料[リンク](https://learn.microsoft.com/ja-jp/azure/static-web-apps/getting-started?tabs=vanilla-javascript)  
 1. リンクから新しいリポジトリ作成（GitHubのログインが必要）　https://github.com/login?return_to=/staticwebdev/vanilla-basic/generate　　  
-![作成](assets/img/github.gif)  
+![github](assets/img/github.gif)  
 
 2. 作成したリポジトリをclone  
 あらかじめフォルダを作成
-![作成](assets/img/clone.gif)  
+![clone](assets/img/clone.gif)  
 
 3. Visual Studio Code を開いて、[ファイル]>[フォルダーを開く] に移動し、クローンしたリポジトリをエディターで開きます
 
-4. F1をおして、
+4. サイドバーからAzureエクステンションを選択(最初はAzureとGitHubのサインインが必要)  
+![VS code Azure](assets/img/A.png)  
+
+5. F1を押して、Create static web appを入力し、[_*Azure Static Web Apps: 静的 Web アプリの作成...*_] を選択します。
 # Vanilla JavaScript App
 
 [Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/overview) allows you to easily build JavaScript apps in minutes. Use this repo with the [quickstart](https://docs.microsoft.com/azure/static-web-apps/getting-started?tabs=vanilla-javascript) to build and customize a new static site.
