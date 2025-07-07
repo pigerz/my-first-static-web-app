@@ -5,6 +5,8 @@
 >   - [静的Webアプリデプロイ](#静的webアプリデプロイ)
 > - [VS Codeの開発](#vs-code)  
 >   - [前提](#前提-vscode-introduction)
+>   - [VS CodeでテンプレートからWeb Static App作成](#vs-codeでテンプレートからweb-static-app作成)
+
 
 ## **はじめに**
 ### **Visual Studio Code**
