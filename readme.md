@@ -86,7 +86,16 @@ VS Codeエクステンションは後ほど追加説明
 4. サイドバーからAzureエクステンションを選択(最初はAzureとGitHubのサインインが必要)  
 ![VS code Azure](assets/img/A.png)  
 
-5. F1を押して、Create static web appを入力し、[_*Azure Static Web Apps: 静的 Web アプリの作成...*_] を選択します。
+5. F1を押して、Create static web appを入力し、[_*Azure Static Web Apps: 静的 Web アプリの作成...*_] を選択します。  
+> アカウント関連に問題発生の場合、F1押して、Manage Trusted Extensions For Accountを入力のあと、Accounts: Manage Trusted Extensions For Accountを選択して、GitHubのアカウントを選択した後にAzure Static Web Appsのチェックします。
+
+6. ポータルから静的Webアプリを検索し、転移します。  
+![検索](assets/img/search.png)  
+
+7. 作成された静的Webアプリを確認する。  
+![検索](assets/img/swa.png)  
+
+
 # Vanilla JavaScript App
 
 [Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/overview) allows you to easily build JavaScript apps in minutes. Use this repo with the [quickstart](https://docs.microsoft.com/azure/static-web-apps/getting-started?tabs=vanilla-javascript) to build and customize a new static site.
