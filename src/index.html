@@ -5,12 +5,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+  <title>マスタ予算</title>
 </head>
 
 <body>
   <main>
-    <h1>Vanilla JavaScript App</h1>
+    <p>マスタ予算画面</p>
+    <div class="main-form">
+      <div class="row-inline form-header">
+        <div >
+
+          <h2 class="form-title">マスタ予算</h2>
+          
+          <button class="form-title btn-browse">参照</button>
+          <button class="form-title btn-browse">編集</button>
+        </div>
+        <div class="">
+          <button class="form-title btn-browse">版作成</button>
+          <button>版保存</button>
+          <button>版削除</button>
+        </div>
+      </div>
+      <div class="form-body">
+        <div class="input-group">
+          <label for="id-ktss">確定申請</label>
+          <select id="id-ktss">
+            <option>承認状態　未申請</option>
+          </select>
+        </div>
+        <div class="input-group">
+          <label for="id-project">プロジェクト</label>
+          <select id="id-project">
+            <option></option>
+          </select>
+          <button>プロジェクト</button>
+          <button>ソリューション見積</button>
+          <button>実行予算</button>
+        </div>
+        <div></div>
+      </div>
+    </div>
   </main>
 </body>
 
