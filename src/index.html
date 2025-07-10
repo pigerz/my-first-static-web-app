@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer></script>
   <link rel="stylesheet" href="styles.css">
   <title>マスタ予算</title>
 </head>
@@ -13,10 +14,10 @@
     <p>マスタ予算画面</p>
     <div class="main-form">
       <div class="row-inline form-header">
-        <div >
+        <div>
 
           <h2 class="form-title">マスタ予算</h2>
-          
+
           <button class="form-title btn-browse">参照</button>
           <button class="form-title btn-browse">編集</button>
         </div>
@@ -42,7 +43,55 @@
           <button>ソリューション見積</button>
           <button>実行予算</button>
         </div>
-        <div></div>
+        <div>
+
+        </div>
+        <div class="sub-form">
+          <ul class="tabs">
+            <li data-tab-target="#basic" class="tab">基本情報</li>
+            <li data-tab-target="#input" class="tab"> 入力</li>
+            <li data-tab-target="#workload " class="tab">工数集計</li>
+            <li data-tab-target="#cost" class="tab">金額集計</li>
+          </ul>
+          <div class="tab-content">
+            <div id="basic" data-tab-content class="active">
+              <div class="form-body">
+
+                <div class="input-group">
+                  <label for="id-create-date">作成日</label>
+                  <input type="date">
+                </div>
+                <div class="input-group">
+                  <label>変更理由</label>
+                  <textarea></textarea>
+                </div>
+                <hr>
+                <div class="input-group">
+                  <label>PM</label>
+                  <select></select>
+                  <label>PL</label>
+                  <select></select>
+                </div>
+                <div class="input-group">
+                  <label>添付ファイル</label>
+                  <input type="file">
+                </div>
+              </div>
+            </div>
+            <div id="input" data-tab-content>
+              2
+
+            </div>
+            <div id="workload" data-tab-content>
+              3
+
+            </div>
+            <div id="cost" data-tab-content>
+              4
+
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </main>
