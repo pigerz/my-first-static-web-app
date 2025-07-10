@@ -82,6 +82,7 @@ main>.main-form {
 .tab {
   width: 10em;
   border: 1px, solid, #000;
+  background-color: rgb(149, 140, 180);
 }
 
 .tab-content .active {
