@@ -28,27 +28,27 @@ VS Codeエクステンションは後ほど追加説明
 > 参考資料 [リンク](https://learn.microsoft.com/ja-jp/azure/static-web-apps/get-started-portal?tabs=vanilla-javascript&pivots=azure-devops)
 
 1. Azure ProtalからDevOpsを開きます。  
-![ポータル](assets/img/portal.png)  
+![ポータル](https://res.cloudinary.com/dooe4rljt/image/upload/v1752219384/portal_dbb2bt.png)  
 2. 組織を選ぶ  
-![組織](assets/img/organization.png)  
+![組織](https://res.cloudinary.com/dooe4rljt/image/upload/v1752219384/organization_egqqq8.png)  
 3. プロジェクト追加  
     > 既存プロジェクトがないの場合は追加画面が表示される  
 
-    ![New Project](assets/img/new_project.png)  
-    ![作成](assets/img/create.png) 
+    ![New Project](https://res.cloudinary.com/dooe4rljt/image/upload/v1752219385/new_project_gvnt5a.png)  
+    ![作成](https://res.cloudinary.com/dooe4rljt/image/upload/v1752219384/create_alqwju.png) 
 4. リポジトリ追加
-    ![リポジトリ](assets/img/Repos.png)  
+    ![リポジトリ](https://res.cloudinary.com/dooe4rljt/image/upload/v1752219385/Repos_beghnl.png)  
     static webのテンプレートをclone  
-    ![インポート](assets/img/clone.png)  
+    ![インポート](https://res.cloudinary.com/dooe4rljt/image/upload/v1752219384/clone_nvjwqm.png)  
     完成  
-    ![完成](assets/img/repo_cloned.png)  
+    ![完成](https://res.cloudinary.com/dooe4rljt/image/upload/v1752219385/repo_cloned_jum8cr.png)  
 
 ### **静的Webアプリデプロイ** 
 > 参考資料 [リンク](https://learn.microsoft.com/ja-jp/azure/static-web-apps/get-started-portal?tabs=vanilla-javascript&pivots=azure-devops)
 1. ポータルから静的Webアプリを検索し、転移します。  
-![検索](assets/img/search.png)  
+![検索](https://res.cloudinary.com/dooe4rljt/image/upload/v1752219386/search_v8bwsq.png)  
 2. 新しい作成する
-![作成](assets/img/create_swa.png)  
+![作成](https://res.cloudinary.com/dooe4rljt/image/upload/v1752219384/create_swa_wfzqbk.png)  
 3. 作成ページ
 下記の設定で作成    
 
@@ -65,40 +65,40 @@ VS Codeエクステンションは後ほど追加説明
     | リポジトリ | [my-first-web-static-app] を選択します。 |
     | [Branch]\(ブランチ) | \[main](メイン) を選択します。 |
 
-![作成](assets/img/swa_new.png)  
-![作成](assets/img/swa_detail.png)  
-![作成](assets/img/swa_create.png)  
+![作成](https://res.cloudinary.com/dooe4rljt/image/upload/v1752219387/swa_new_tia3wi.png)  
+![作成](https://res.cloudinary.com/dooe4rljt/image/upload/v1752219387/swa_detail_znjlw9.png)  
+![作成](https://res.cloudinary.com/dooe4rljt/image/upload/v1752219386/swa_create_lj6zhm.png)  
 
 ## **VS Code**
 ### **前提** {#vscode-introduction}
 - azure static web appエクステンションをインストール  
-![エクステンション](assets/img/extension.gif)  
+![エクステンション](https://res.cloudinary.com/dooe4rljt/image/upload/v1752219386/extension_lhm2w7.gif)  
 
 ### **VS CodeでテンプレートからWeb Static App作成**
 > 参考資料[リンク](https://learn.microsoft.com/ja-jp/azure/static-web-apps/getting-started?tabs=vanilla-javascript)  
 1. リンクから新しいリポジトリ作成（GitHubのログインが必要）　https://github.com/login?return_to=/staticwebdev/vanilla-basic/generate　　  
-![github](assets/img/github.gif)  
+![github](https://res.cloudinary.com/dooe4rljt/image/upload/v1752219386/github_drkmpn.gif)  
 
 2. 作成したリポジトリをclone  
 あらかじめフォルダを作成
-![clone](assets/img/clone.gif)  
+![clone](https://res.cloudinary.com/dooe4rljt/image/upload/v1752219387/clone_vuon9t.gif)  
 
 3. Visual Studio Code を開いて、[ファイル]>[フォルダーを開く] に移動し、クローンしたリポジトリをエディターで開きます
 
 4. サイドバーからAzureエクステンションを選択(最初はAzureとGitHubのサインインが必要)  
-![VS code Azure](assets/img/A.png)  
+![VS code Azure](https://res.cloudinary.com/dooe4rljt/image/upload/v1752219384/A_p2a1gf.png)  
 
 5. F1を押して、Create static web appを入力し、[_*Azure Static Web Apps: 静的 Web アプリの作成...*_] を選択します。  
     > アカウント関連に問題発生の場合、F1押して、Manage Trusted Extensions For Accountを入力のあと、Accounts: Manage Trusted Extensions For Accountを選択して、GitHubのアカウントを選択した後にAzure Static Web Appsのチェックします。
     
-    ![SWA作成](assets/img/swa.gif)  
+    ![SWA作成](https://res.cloudinary.com/dooe4rljt/image/upload/v1752219386/swa_kigwgo.gif)  
 
 
 6. ポータルから静的Webアプリを検索し、転移します。  
-![検索](assets/img/search.png)  
+![検索](https://res.cloudinary.com/dooe4rljt/image/upload/v1752219386/search_v8bwsq.png)  
 
 7. 作成された静的Webアプリを確認する。  
-![検索](assets/img/swa.png)  
+![検索](https://res.cloudinary.com/dooe4rljt/image/upload/v1752219386/swa_iafjvs.png)  
 
 
 # Vanilla JavaScript App
