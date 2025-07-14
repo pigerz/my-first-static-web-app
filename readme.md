@@ -72,7 +72,7 @@ VS Codeエクステンションは後ほど追加説明
 ## **VS Code**
 ### **前提** {#vscode-introduction}
 - azure static web appエクステンションをインストール  
-![エクステンション](https://res.cloudinary.com/dooe4rljt/image/upload/v1752219386/extension_lhm2w7.gif)  
+![エクステンション](https://res.cloudinary.com/dooe4rljt/image/upload/v1752460387/extension_resized_e4hvpf.gif)  
 
 ### **VS CodeでテンプレートからWeb Static App作成**
 > 参考資料[リンク](https://learn.microsoft.com/ja-jp/azure/static-web-apps/getting-started?tabs=vanilla-javascript)  
@@ -81,7 +81,7 @@ VS Codeエクステンションは後ほど追加説明
 
 2. 作成したリポジトリをclone  
 あらかじめフォルダを作成
-![clone](https://res.cloudinary.com/dooe4rljt/image/upload/v1752219387/clone_vuon9t.gif)  
+![clone](https://res.cloudinary.com/dooe4rljt/image/upload/v1752460387/clone_resized_qsf3ql.gif)  
 
 3. Visual Studio Code を開いて、[ファイル]>[フォルダーを開く] に移動し、クローンしたリポジトリをエディターで開きます
 
@@ -98,7 +98,7 @@ VS Codeエクステンションは後ほど追加説明
 ![検索](https://res.cloudinary.com/dooe4rljt/image/upload/v1752219386/search_v8bwsq.png)  
 
 7. 作成された静的Webアプリを確認する。  
-![検索](https://res.cloudinary.com/dooe4rljt/image/upload/v1752219386/swa_iafjvs.png)  
+![検索](https://res.cloudinary.com/dooe4rljt/image/upload/v1752460386/swa_resized_q6xbuc.gif)  
 
 
 # Vanilla JavaScript App
